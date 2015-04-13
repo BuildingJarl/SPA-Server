@@ -1,0 +1,29 @@
+{
+  "name": "SPA-Server",
+  "version": "0.0.1",
+  "description": "Server to serve single page apps",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BuildingJarl/SPA-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuildingJarl/SPA-Server/issues"
+  },
+  "homepage": "https://github.com/BuildingJarl/SPA-Server",
+  "dependencies": {
+    "co-body": "^1.1.0",
+    "koa": "^0.19.0",
+    "koa-logger": "^1.2.2",
+    "koa-router": "^4.3.2",
+    "koa-views": "^3.0.0"
+  },
+  "engines": {
+    "iojs": "1.0.1"
+  }
+}
